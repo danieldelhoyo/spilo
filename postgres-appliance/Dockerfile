@@ -50,7 +50,7 @@ ENV PATH=$PATH:/usr/lib/postgresql/${PGVERSION}/bin
 ## 1 Install tools required to build
 ## 2 Build
 ## 3 Remove tools only required for build
-ENV PATRONIVERSION=1.0
+ENV PATRONIVERSION=1.1rc1
 ENV WALE_VERSION=1.0.0a2
 RUN export DEBIAN_FRONTEND=noninteractive \
     export BUILD_PACKAGES="postgresql-server-dev-${PGVERSION} python3-pip python3-dev build-essential pgxnclient" \
